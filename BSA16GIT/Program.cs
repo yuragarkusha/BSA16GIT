@@ -16,8 +16,10 @@ namespace BSA16GIT
             int b = Convert.ToInt32(Console.ReadLine());
             int plusValue = Calculator.Plus(a,b);
             int minusValue = Calculator.Minus(a, b);
+            int multiplyValue = Calculator.Multiply(a, b);
             Console.WriteLine("Сумма чисел: "+ plusValue);
             Console.WriteLine("Разница чисел: " + minusValue);
+            Console.WriteLine("Произведение чисел: " + multiplyValue);
             Console.ReadLine();
         }
     }
