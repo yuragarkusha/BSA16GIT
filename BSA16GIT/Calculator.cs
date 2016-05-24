@@ -19,5 +19,11 @@ namespace BSA16GIT
             int c = a - b;
             return c;
         }
+
+        public static int Multiply(int a, int b)
+        {
+            int c = a * b;
+            return c;
+        }
     }
 }
